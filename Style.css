@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap');
+
+body {
+     margin-top: 0px;
+      font-family: 'Noto Serif TC', serif;
+ }
+.container{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header h1{
+     color: rgb(57, 27, 27);
+     text-align: center;
+     font-size: 80px;
+     margin-bottom: -6px;
+}
+
+nav{
+     text-align: center;
+}
+nav a {
+     text-decoration: none;
+     color: #592929f1;
+     font-size:20px;
+     text-decoration-line: underline;
+}
+nav a:hover{
+     color: rgb(186, 136, 130);
+     font-weight: bolder;
+     
+}
+.heroimg{
+     height: 400px;
+     background-image: url(images/megan.jpg);
+     background-size: cover;
+     border-radius: 20px;
+}
+
+article {
+     min-height: 100px;
+}
+article h3 {
+     color: #1e1e1e;
+     height: 50px;
+     line-height: 50px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 20px;
+     border-radius: 20px;
+     background-color: #e6cece;
+}
+article p {
+     text-align: justify;
+     padding-left: 12px;
+     padding-right: 18px;
+     font-size: 15px;
+}
+article ul {
+     text-align: justify;
+     font-size: 15px;
+}
+mark {
+     background-color: rgb(152, 219, 142);
+   }
